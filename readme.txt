@@ -1,3 +1,5 @@
+创建文件夹:mkdir filename
+把当前文件夹初始化为Git管理的本地库：git init
 添加到缓存区：git add readme.txt
 上传到仓库：git commit -m "日志"
 查看提交状态：git status
@@ -12,4 +14,5 @@ log简介显示：git log -pretty=oneline
 打开文件进行编辑：vi readme.txt
 字母i或者a或者o进入可编辑状态；按ESC退出可编辑状态；
 退出Vim编辑器ZZ大写或者wq或者wq!强制退出
-
+查看文件被修改的内容：git diff filename
+删除指定文件：git rm filename
