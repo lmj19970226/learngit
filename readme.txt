@@ -10,5 +10,6 @@ log简介显示：git log -pretty=oneline
 回退到具体的版本号abcdefg的版本：git reset --hard abcdefg
 查看文件夹下文件：dir
 打开文件进行编辑：vi readme.txt
-
+字母i或者a或者o进入可编辑状态；按ESC退出可编辑状态；
+退出Vim编辑器ZZ大写或者wq或者wq!强制退出
 
