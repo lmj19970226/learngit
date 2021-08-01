@@ -16,3 +16,9 @@ log简介显示：git log -pretty=oneline
 退出Vim编辑器ZZ大写或者wq或者wq!强制退出
 查看文件被修改的内容：git diff filename
 删除指定文件：git rm filename
+删除文件夹：git rm -r --cached filename;然后commit；再push
+提交到远程仓库：git push -u origin master
+上传到远程仓库报错：Updates were rejected because the tip of your current branch is behin
+
+hint: its remote counterpart. Integrate the remote changes
+先尝试和远程仓库进行合并：git pull --rebase origin master再push
