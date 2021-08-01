@@ -8,4 +8,7 @@ log简介显示：git log -pretty=oneline
 查看文件内容：cat readme.txt
 查看整个版本历史：git reflog
 回退到具体的版本号abcdefg的版本：git reset --hard abcdefg
- 
+查看文件夹下文件：dir
+打开文件进行编辑：vi readme.txt
+
+
